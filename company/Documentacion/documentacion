@@ -1,0 +1,51 @@
+Primer Paso
+
+https://medium.com/@babajide.ogunjobi/create-a-fullstack-app-with-django-graphql-and-vuejs-727a0cf41820
+https://www.djangoproject.com/start/
+
+View release notes for Django 2.2
+
+Saber la version de Django
+
+py manage.py shell
+
+import django
+
+django.VERSION
+
+--------------------------------
+
+pycha creo el proyecto y el entorno virtual
+
+Psso 2
+
+migrar la base de datos
+
+py manage.py migrate
+
+Paso 3
+
+subir el servidor
+
+py manage.py runserver
+
+
+------------------------------
+Despues de Crear el Modelo a migrar
+
+py manage.py makemigrations Legis
+py manege.py migrate
+
+
+------------------------------
+
+ver nuestros modelos en accion
+
+ahora el en archivo del proyecto
+admin.py
+
+----------------------
+
+Crear el Super Usuario
+
+py manage.py createsuperuser
