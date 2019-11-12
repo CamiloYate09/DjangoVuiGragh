@@ -1,7 +1,12 @@
 Primer Paso
 
+pip --version = 19.0.3
+python --version = Version de Python 3.7.2
+
 https://medium.com/@babajide.ogunjobi/create-a-fullstack-app-with-django-graphql-and-vuejs-727a0cf41820
 https://www.djangoproject.com/start/
+https://pipenv-es.readthedocs.io/es/latest/install.html
+
 
 View release notes for Django 2.2
 
@@ -44,8 +49,27 @@ ver nuestros modelos en accion
 ahora el en archivo del proyecto
 admin.py
 
+
 ----------------------
 
 Crear el Super Usuario
 
 py manage.py createsuperuser
+
+
+-----------------------
+
+instalar GraphQL  en django
+
+pip install --user pipenv
+
+pip install graphene-django
+
+pip install django-graphiql
+
+pip install django-filter
+
+
+pip freeze > requirements.txt
+
+
