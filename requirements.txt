@@ -1,5 +1,5 @@
 aniso8601==7.0.0
-Django==2.2.7
+Django==2.2.21
 graphql-core==2.2.1
 graphql-relay==2.0.0
 promise==2.2.1
